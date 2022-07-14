@@ -446,7 +446,8 @@ footer a:hover {
     width: 100%;
   }
 
-  .tecnica-suprema p{
+  .tecnica-suprema .inner-section .inner-image h2{
+    margin-bottom: 3rem;
   }
   
   .inner-section .inner-image img {
@@ -463,6 +464,8 @@ footer a:hover {
   .bonus .inner-section .crase p, .bonus .inner-section .crase h2  {
     text-align: center;
   }
+
+  
 
   .inner-testimonial-section {
     display: flex;
