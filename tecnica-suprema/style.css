@@ -1,0 +1,554 @@
+:root {
+  --color-orange: #ff7f27;
+  --ff-regular: "Montserrat",sans-serif;
+
+  --font-h2: normal 700 2.2rem/3.6rem "Montserrat",sans-serif ;
+
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    font: normal 400 1.6rem var(--ff-regular);
+
+}
+
+header {
+  text-align: center;
+}
+
+section h2 span {
+  color: var(--color-orange);
+}
+
+.topbar {
+  background: var(--color-orange) ;
+  padding: 1.5rem 0;
+
+  color: white;
+  font: normal 700 2rem/2rem var(--ff-regular);
+  text-align: center;
+}
+
+.topbar i {
+  margin: 0 1rem;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header img {
+  width: 25rem;
+  margin: 2.5rem 0;
+}
+
+.content h1 {
+  font: normal 700 4rem/5rem var(--ff-regular);
+  color: var(--color-orange);
+  margin-bottom: 2rem;
+}
+
+.content h2 {
+  font: var(--font-h2);
+  margin-bottom: 2rem;
+}
+
+.content iframe {
+  border-radius: 10px;
+  border: solid 4px var(--color-orange);
+  box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.3);
+
+  margin-bottom: 1.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+
+
+}
+
+.button-container .accept {
+
+  width: 40rem;
+  margin: 0 auto -10px;
+  padding: 2rem;
+  border-radius: 50px;
+  border: none;
+
+  background: var(--color-orange);
+
+  color: white;
+
+  font: normal 700 1.6rem var(--ff-regular);
+
+  cursor: pointer;
+
+  transition: all .3s;
+}
+
+.button-container .accept:hover {
+  background: #e06614;
+  box-shadow: 3px 3px 25px #ff660089;
+  
+  transform: translateY(-15px);
+}
+
+.button-container .denie {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 1.6rem;
+  border-radius: 50px;
+  border: 2px solid var(--color-orange);
+
+  background: transparent;
+
+  font: normal 700 1.4rem var(--ff-regular);
+
+  cursor: pointer;
+
+  transition: transform .3s;
+}
+
+.button-container .denie:hover {
+  transform: translateY(-15px);
+}
+
+/**********************/
+/*section presentation*/
+/**********************/
+
+.presentation {
+  width: 100%;
+  margin: 10rem auto 0;
+  padding: 5rem 0;
+
+  background: rgb(228, 228, 228);
+}
+
+
+.presentation .content > p {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.presentation .content span {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.presentation .content p.question{
+  font-style: italic;
+  font-weight: 700;
+}
+
+/*************************/
+/*section técnica-suprema*/
+/*************************/
+
+.tecnica-suprema {
+  background-image: url(./image/slate-texture-background\ \(1\).jpg);
+  background-size: cover;
+  padding: 5rem 0;
+  color: white;
+}
+
+.tecnica-suprema .content h1{
+  border-bottom: 3px solid var(--color-orange);
+}
+
+.tecnica-suprema .content > p, .crase p {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.tecnica-suprema .content span {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-orange);
+}
+
+.inner-section {
+  display: flex;
+  text-align: left;
+}
+
+.inner-section .inner-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+
+.inner-section .inner-image h2 {
+  position: relative;
+  top: 2rem;
+
+  border: solid 3px white;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.inner-section .crase {
+  width: 50%;
+}
+
+.tecnica-suprema .content p + h2 {
+  margin: 5rem 0;
+}
+
+.tecnica-suprema .content p + h2 span {
+  color: var(--color-orange);
+  font: normal 700 2rem var(--font-h2);
+}
+
+
+/****************/
+/*section bonus*/
+/***************/
+
+.bonus {
+  padding: 5rem 0;
+}
+
+.bonus h2 {
+  text-align: center;
+}
+
+.bonus h2 span {
+  color: var(--color-orange);
+}
+
+.bonus .inner-section h2 {
+  text-align: left;
+}
+
+.objection {
+  padding: 0 0 5rem;
+}
+
+.objection p, .discount p, .warranty p {
+  margin-bottom: 1rem;
+}
+
+/*******************/
+/*section discount*/
+/******************/
+
+.discount {
+  padding: 5rem 0;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discount h2, .discount p {
+  color: white;
+}
+
+.discount h3 {
+  margin-top: 2rem;
+  color: white;
+}
+
+.discount h3 span {
+  color: var(--color-orange);
+}
+
+.discount .button-container {
+  margin-top: 3rem;
+}
+
+.discount .button-container .denie {
+  color: white;
+}
+
+
+/********************/
+/*section testmonial*/
+/********************/
+
+.testimonial {
+  padding: 5rem
+}
+
+.inner-testimonial-section {
+  text-align: left;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.inner-testimonial-section img {
+  width: 25rem;
+  border-radius: 10px;
+  box-shadow: 5px 0 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+.inner-testimonial-section .testimonial-image {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.warranty {
+  background: rgb(228, 228, 228);
+  padding: 5rem;
+}
+
+.warranty .content {
+  display: flex;
+}
+
+.warranty-info {
+  text-align: left;
+  padding: 0 2rem 0 0;
+}
+
+.warranty-image img{
+  width: 25rem;
+}
+
+/******************/
+/*section purchase*/
+/******************/
+
+.presentation .content p {
+  text-align: center;
+}
+
+.tecnica-suprema .content p,
+.tecnica-suprema .content h2
+ {
+  text-align: center;
+}
+
+.purchase {
+  background-image: url(./image/slate-texture-background\ \(1\).jpg);
+  background-size: cover;
+  padding: 5rem 0;
+  color: white;
+}
+
+.purchase h3 span {
+  color: var(--color-orange);
+}
+
+.buy-wrapper {
+  display: flex;
+  padding: 3rem 0;
+}
+
+.list-bonus {
+  font-size: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  text-align: left;
+
+  padding: 0 2rem 0 0;
+  
+}
+
+.list-bonus li {
+  margin-bottom: 1.5rem;
+  list-style: none;
+  border-bottom: solid 1px rgba(229, 229, 229, 0.341);
+}
+
+.list-bonus i.fa-circle-check {
+  margin: 0 1.5rem 0 0;
+}
+
+.list-bonus h2 {
+  font-size: 2.5rem;
+  color: var(--color-orange);
+}
+
+.purchase .button-container .denie{
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.tag-wrapper {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tag-wrapper img:first-of-type {
+  width: clamp(12rem, 12rem + 1vw, 25rem );
+}
+
+footer, footer a {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+  padding: 1rem 0;
+  background: #1a1a1a;
+
+  font: normal 400 1.6rem var(--ff-regular);
+  color: white;
+  text-decoration: none;
+}
+
+footer a {
+  cursor: pointer;
+  transition: all .5s;
+}
+
+footer a:hover {
+  color: var(--color-orange);
+
+  transform: scale(1.05);
+}
+
+/**************/
+/*Responsivity*/
+/**************/
+
+
+@media (max-width: 1024px) {
+
+ header iframe {
+    width: 90%!important;
+  }
+
+
+  .content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .inner-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner-section .inner-image, .inner-section .crase, .crase {
+    width: 100%;
+  }
+
+  .tecnica-suprema p{
+  }
+  
+  .inner-section .inner-image img {
+    width: 50%;
+    margin:  0 auto;
+    text-align: center;
+  }
+
+  .bonus .inner-section .inner-image {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .bonus .inner-section .crase p, .bonus .inner-section .crase h2  {
+    text-align: center;
+  }
+
+  .inner-testimonial-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inner-testimonial-section .testimonial-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inner-testimonial-section .testimonial-image:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .warranty .content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3.2rem;
+  }
+
+  .warranty p, .warranty h2 {
+    text-align: center;
+  }
+
+  .buy-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-bonus ul li, .buy-wrapper h2 {
+    text-align: center;
+  }
+
+  .tag-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 2.5rem;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .button-container .accept {
+    margin: 0 auto;
+    width: 30rem;
+  }
+
+  .button-container .denie {
+    margin: 0 auto;
+    width: 20rem;
+  }
+
+  .warranty-image img{
+    width: 15rem;
+    margin: 0 auto;
+  }
+
+  .warranty .content h2 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  .warranty .content {
+    margin: 0 auto;
+  }
+
+.warranty-info {
+    text-align: left;
+    padding: 0;
+  }
+
+  .bonus .inner-image img {
+  width: 15rem;
+  margin: 0 auto;
+}
+}
+
+
