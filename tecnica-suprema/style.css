@@ -72,11 +72,9 @@ header img {
 
 .button-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
   gap: 3rem;
-
-
 
 }
 
@@ -304,6 +302,14 @@ header img {
   gap: 2rem;
 }
 
+img.elias1 {
+    display: none;
+}
+
+h2.stephanie1 {
+  display: none;
+}
+
 .warranty {
   background: rgb(228, 228, 228);
   padding: 5rem;
@@ -481,6 +487,23 @@ footer a:hover {
   .inner-testimonial-section .testimonial-image:nth-child(2) {
     flex-direction: column-reverse;
   }
+
+    img.elias1 {
+    display: block;
+    margin: 0 auto 15px ;
+  }
+
+  h2.stephanie1 {
+    display: block;
+  }
+  h2.stephanie2 {
+    display: none;
+  }
+
+  img.elias2 {
+    display: none;
+  }
+  
 
   .warranty .content {
     display: flex;
