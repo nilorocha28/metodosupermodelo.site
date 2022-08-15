@@ -21,6 +21,11 @@
             
         }
 
+       .videobox {
+        width: 60%;
+        border-radius: 12px;
+       }
+
         h1,
         h2,
         h3,
@@ -443,7 +448,7 @@
             }
         }
 
-        .video-youtube {
+        .video-youtube, #vid_62f944a895b485000a7eb62c {
             -webkit-box-shadow: -1px 1px 5px 3px #FF7F27;
             box-shadow: -1px 1px 5px 3px #FF7F27;
             height: 440px;
