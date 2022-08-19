@@ -738,9 +738,7 @@ width: 480px;
 
         @media (max-width: 600px) {
                 
-                .videobox{
-                 width: 80%;
-                }
+                
 
             .titulo-ajuda {
                 width: 90%;
@@ -812,7 +810,9 @@ margin: 20px;
  
 @media (max-width: 600px) {
 
-
+    .videobox{
+      width: 80%!important;
+    }
 
     .plano {
         width: 360px;
