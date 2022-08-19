@@ -737,6 +737,11 @@ width: 480px;
 
 
         @media (max-width: 600px) {
+                
+                .videobox{
+                 background:red;
+                 width: 100%;
+                }
 
             .titulo-ajuda {
                 width: 90%;
