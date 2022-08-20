@@ -27,6 +27,12 @@ section h2 span {
   color: var(--color-orange);
 }
 
+ .videobox {
+        width: 80%;
+        border-radius: 12px;
+        margin: 0 auto;
+       }
+
 .topbar {
   background: var(--color-orange) ;
   padding: 1.5rem 0;
